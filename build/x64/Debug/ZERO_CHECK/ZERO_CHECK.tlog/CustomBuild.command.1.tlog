@@ -1,0 +1,10 @@
+^C:\USERS\ALTON DUPRE\DOCUMENTS\COLLAGE\CSC SOFTWARE ENGINEERING\SORTING ASSIGNMENT\BUILD\CMAKEFILES\FB692ECA477336D7A85AE46949832354\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Alton Dupre/Documents/Collage/CSC Software Engineering/Sorting Assignment" "-BC:/Users/Alton Dupre/Documents/Collage/CSC Software Engineering/Sorting Assignment/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Alton Dupre/Documents/Collage/CSC Software Engineering/Sorting Assignment/build/MergeSort.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
